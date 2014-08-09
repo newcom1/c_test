@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOTTOM	snake.h	9;"	d
+Food	snake.h	/^}Food;$/;"	t	typeref:struct:food
+LEFT	snake.h	11;"	d
+Node	snake.h	/^}Node;$/;"	t	typeref:struct:snake_node
+RIGHT	snake.h	10;"	d
+TOP	snake.h	8;"	d
+_INIT_RUN_H_	init_run.h	4;"	d
+_SNAKE_H_	snake.h	2;"	d
+_game_over	run.c	/^void _game_over()$/;"	f
+_judge_die	run.c	/^int _judge_die()$/;"	f
+_move_snake	run.c	/^void _move_snake()$/;"	f
+_print_snake	run.c	/^void _print_snake()$/;"	f
+destroy_all	run.c	/^void destroy_all()$/;"	f
+direction	snake.h	/^char direction;$/;"	v
+food	snake.h	/^typedef struct food $/;"	s
+head	init_run.h	/^struct snake_node *head;$/;"	v	typeref:struct:snake_node
+init_disp	init.c	/^void init_disp()$/;"	f
+init_snake	init.c	/^void init_snake()$/;"	f
+main	snake.c	/^int main() {$/;"	f
+next	snake.h	/^	struct snake_node *next;$/;"	m	struct:snake_node	typeref:struct:snake_node::snake_node
+node	snake.h	/^	Food node;$/;"	m	struct:snake_node
+p_node	init_run.h	/^struct snake_node *p_node;$/;"	v	typeref:struct:snake_node
+pre	snake.h	/^	struct snake_node *pre;$/;"	m	struct:snake_node	typeref:struct:snake_node::snake_node
+run_snake	run.c	/^void run_snake()$/;"	f
+snake_node	snake.h	/^typedef struct snake_node$/;"	s
+tail	init_run.h	/^struct snake_node *tail;$/;"	v	typeref:struct:snake_node
+x	snake.h	/^	int x;$/;"	m	struct:food
+y	snake.h	/^	int y;$/;"	m	struct:food

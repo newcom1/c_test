@@ -1,0 +1,136 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOTTOM	snake/snake.h	9;"	d
+BOT_ROW	original/snake.h	13;"	d
+CRC	crc/main.c	4;"	d	file:
+DFL_SPEED	original/snake.h	11;"	d
+DLL_Snake_Create	original/snake.c	/^void DLL_Snake_Create()  $/;"	f
+FNAME	struct/write_struct.c	6;"	d	file:
+FOOD_SYMBOL	original/snake.h	9;"	d
+Food	snake/snake.h	/^}Food;$/;"	t	typeref:struct:food
+Food_Disp	original/snake.c	/^void Food_Disp()  $/;"	f
+Init_Disp	original/snake.c	/^void Init_Disp()  $/;"	f
+IntegerToString	test/convert.c	/^void IntegerToString(char s[],int n)$/;"	f
+LEFT	snake/snake.h	11;"	d
+LEFT_EDGE	original/snake.h	14;"	d
+LIST_H	list/list.h	2;"	d
+List	list/list.h	/^} List;$/;"	t	typeref:struct:List_
+ListElmt	list/list.h	/^} ListElmt;$/;"	t	typeref:struct:ListElmt_
+ListElmt_	list/list.h	/^typedef struct ListElmt_$/;"	s
+List_	list/list.h	/^typedef struct List_$/;"	s
+MAX_NODE	original/snake.h	10;"	d
+NUM	struct/write_struct.c	5;"	d	file:
+Node	snake/snake.h	/^}Node;$/;"	t	typeref:struct:snake_node
+QuickSort	QuickSort.c	/^void QuickSort(int a[],int numsize)\/*a是整形数组，numsize是元素个数*\/$/;"	f
+RIGHT	snake/snake.h	10;"	d
+RIGHT_EDGE	original/snake.h	15;"	d
+SNAKE_SYMBOL	original/snake.h	8;"	d
+Snake_Node	original/snake.h	/^} Snake_Node;  $/;"	t	typeref:struct:node
+TOP	snake/snake.h	8;"	d
+TOP_ROW	original/snake.h	12;"	d
+_INIT_RUN_H_	snake/init_run.h	4;"	d
+_SNAKE_H_	snake/snake.h	2;"	d
+_game_over	snake/run.c	/^void _game_over()$/;"	f
+_judge_die	snake/run.c	/^int _judge_die()$/;"	f
+_move_snake	snake/run.c	/^void _move_snake()$/;"	f
+_print_snake	snake/run.c	/^void _print_snake()$/;"	f
+a	struct/struct.c	/^	int a;$/;"	m	struct:s1	file:
+a	test/open.c	/^	char a;$/;"	m	struct:test	file:
+a	test/struct.c	/^	char a;$/;"	m	struct:test	file:
+b	struct/struct.c	/^	char b;$/;"	m	struct:s1	file:
+b	test/open.c	/^	int b;$/;"	m	struct:test	file:
+b	test/struct.c	/^	char b[5];$/;"	m	struct:test	file:
+book	struct/write_struct.c	/^struct book$/;"	s	file:
+build	struct/write_struct.c	/^	char build[5];$/;"	m	struct:book	file:
+c	struct/struct.c	/^	int c;$/;"	m	struct:s2	file:
+c	test/struct.c	/^	int c;$/;"	m	struct:test	file:
+calcCRC	crc/main.c	/^unsigned short calcCRC(const char * data, int size)$/;"	f
+charncmp	qstrcmp.c	/^int charncmp(char *a, char *b, int num)$/;"	f
+checkcpu	test/convert.c	/^int checkcpu()$/;"	f
+d	struct/struct.c	/^	struct s1 d;$/;"	m	struct:s2	typeref:struct:s2::s1	file:
+data	list/list.h	/^	void *data;$/;"	m	struct:ListElmt_
+destroy	list/list.h	/^	void (*destroy)(void *data);$/;"	m	struct:List_
+destroy_all	snake/run.c	/^void destroy_all()$/;"	f
+direction	snake/snake.h	/^char direction;$/;"	v
+dis	struct/write_struct.c	/^void dis()$/;"	f
+food	snake/snake.h	/^typedef struct food $/;"	s
+head	list/list.h	/^	ListElmt *head;$/;"	m	struct:List_
+head	snake/init_run.h	/^struct snake_node *head;$/;"	v	typeref:struct:snake_node
+init_disp	snake/init.c	/^void init_disp()$/;"	f
+init_snake	snake/init.c	/^void init_snake()$/;"	f
+list_data	list/list.h	34;"	d
+list_destroy	list/list.c	/^void list_destroy(List *list) {$/;"	f
+list_head	list/list.h	30;"	d
+list_init	list/list.c	/^void list_init(List *list, void (*destroy)(void *data)){$/;"	f
+list_ins_next	list/list.c	/^int list_ins_next(List *list, ListElmt *element, const void *data){$/;"	f
+list_is_head	list/list.h	32;"	d
+list_is_tail	list/list.h	33;"	d
+list_next	list/list.h	35;"	d
+list_rem_next	list/list.c	/^int list_rem_next(List *list, ListElmt *element, void **data){$/;"	f
+list_size	list/list.h	28;"	d
+list_tail	list/list.h	31;"	d
+main	QuickSort.c	/^int main()$/;"	f
+main	QuickSort1.c	/^int main()$/;"	f
+main	crc/char2x.c	/^int main()$/;"	f
+main	crc/main.c	/^int main()$/;"	f
+main	crc/test.c	/^void main ()$/;"	f
+main	double_array.c	/^void main()$/;"	f
+main	fork/fork.c	/^int main()$/;"	f
+main	list/main.c	/^int main()$/;"	f
+main	qsort.c	/^int main()$/;"	f
+main	qstrcmp.c	/^int main()$/;"	f
+main	quicksort.c	/^int main()$/;"	f
+main	snake/snake.c	/^int main() {$/;"	f
+main	struct/struct.c	/^int main()$/;"	f
+main	struct/write_struct.c	/^int main()$/;"	f
+main	test/convert.c	/^void main()$/;"	f
+main	test/find.c	/^int main()$/;"	f
+main	test/main.c	/^int main()$/;"	f
+main	test/open.c	/^int main()$/;"	f
+main	test/struct.c	/^void main()$/;"	f
+main	test/test.c	/^int main()$/;"	f
+main	time/time1.c	/^void main()$/;"	f
+match	list/list.h	/^	int (*match)(const void *key1, const void *key2);$/;"	m	struct:List_
+maxf	test/find.c	/^char *maxf(char *a, char *b)$/;"	f
+name	struct/write_struct.c	/^	char name[2];$/;"	m	struct:book	file:
+next	list/list.h	/^	struct ListElmt_ *next;$/;"	m	struct:ListElmt_	typeref:struct:ListElmt_::ListElmt_
+next	original/snake.h	/^	struct node *next;  $/;"	m	struct:node	typeref:struct:node::node
+next	snake/snake.h	/^	struct snake_node *next;$/;"	m	struct:snake_node	typeref:struct:snake_node::snake_node
+node	original/snake.h	/^typedef struct node         \/* Snake_node structure *\/  $/;"	s
+node	snake/snake.h	/^	Food node;$/;"	m	struct:snake_node
+p	struct/write_struct.c	/^struct book *p;$/;"	v	typeref:struct:book
+p_node	snake/init_run.h	/^struct snake_node *p_node;$/;"	v	typeref:struct:snake_node
+partion	QuickSort1.c	/^int partion(int A[], int l, int h) \/\/A为数组，l为待排序区间的左值（low），h相同（high）$/;"	f
+position	original/snake.h	/^struct position             \/* food position structure *\/  $/;"	s
+pre	snake/snake.h	/^	struct snake_node *pre;$/;"	m	struct:snake_node	typeref:struct:snake_node::snake_node
+prev	original/snake.h	/^	struct node *prev;  $/;"	m	struct:node	typeref:struct:node::node
+price	struct/write_struct.c	/^	int price;$/;"	m	struct:book	file:
+print	list/main.c	/^void print(void *data){$/;"	f
+quick	QuickSort1.c	/^void quick(int A[],int l,int h)$/;"	f
+quicksort	quicksort.c	/^void quicksort(int a[], int size)$/;"	f
+reverse	test/convert.c	/^void reverse(char s[])$/;"	f
+reverse	test/test.c	/^char * reverse(char *const dest, const char *src)$/;"	f
+run_snake	snake/run.c	/^void run_snake()$/;"	f
+s1	struct/struct.c	/^struct s1$/;"	s	file:
+s2	struct/struct.c	/^struct s2$/;"	s	file:
+set	double_array.c	/^void set(char (*text)[128])$/;"	f
+set_set	double_array.c	/^void set_set(char *text )$/;"	f
+size	list/list.h	/^	int size;$/;"	m	struct:List_
+snake_node	snake/snake.h	/^typedef struct snake_node$/;"	s
+std	QuickSort1.c	/^using namespace std;$/;"	v
+swap	QuickSort1.c	/^void swap(int *l, int *h)$/;"	f
+tabel	crc/main.c	/^static const unsigned short  tabel[256] = {   $/;"	v	file:
+tail	list/list.h	/^	ListElmt *tail;$/;"	m	struct:List_
+tail	snake/init_run.h	/^struct snake_node *tail;$/;"	v	typeref:struct:snake_node
+test	test/open.c	/^struct test$/;"	s	file:
+test	test/struct.c	/^struct test$/;"	s	file:
+x	snake/snake.h	/^	int x;$/;"	m	struct:food
+x_pos	original/snake.h	/^	int x_pos;  $/;"	m	struct:node
+x_pos	original/snake.h	/^	int x_pos;  $/;"	m	struct:position
+y	snake/snake.h	/^	int y;$/;"	m	struct:food
+y_pos	original/snake.h	/^	int y_pos;  $/;"	m	struct:node
+y_pos	original/snake.h	/^	int y_pos;  $/;"	m	struct:position
