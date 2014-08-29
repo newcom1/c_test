@@ -5,10 +5,11 @@
 
 int main()
 {
+
 	FILE *fp;
 	char content[LINE_LEN];
 	int nBufflen = 0;
-	fp = fopen(CONFIG_FILE, "r");
+	fp = fopen(CONFIG_FILE, "a+r");
 	if(!fp)
 	{
 		printf("Failed to open file!\n");
@@ -23,10 +24,14 @@ int main()
 		}
 		else
 		{
-			nBufflen = fread(content, sizeof(char), LINE_LEN, fp);
+			//fwrite("test", 1, 5, fp);
+			//fwrite("test1", 1, 6, fp);
+			//nBufflen = fread(content, sizeof(char), LINE_LEN, fp);
+			fgets(content, LINE_LEN, fp);
 			printf("content:%s\nnBufflen:%d\n", content, nBufflen);
 		}
 	}
+	fclose(fp);
 
 
 	return 0;
